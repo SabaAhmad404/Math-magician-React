@@ -7,6 +7,8 @@ class App extends React.Component {
     this.state = {};
   }
 
+
+class App extends Component {
   render() {
     return (
       <div>
@@ -14,6 +16,7 @@ class App extends React.Component {
       </div>
     );
   }
+}
 }
 
 export default App;
