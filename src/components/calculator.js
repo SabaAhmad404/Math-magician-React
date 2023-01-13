@@ -1,17 +1,24 @@
-import { Component } from 'react';
+
+import React, { useState } from 'react';
 import calculate from '../logic/calculate';
+import { count } from 'console';
 
-export default class Calculator extends Component {
-  constructor(props) {
-    super(props);
-    this.state = { total: 0, next: null, operation: null };
-  }
-
-  buttonClicked = (event) => {
+// export default class Calculator extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = { total: 0, next: null, operation: null };
+//   }
+const Calculator=()=>{
+    const [counter, setCount]=useState({ total: 0, next: null, operation: null });
+};
+ const buttonClicked = (event) => {
     const btnName = event.target.innerText;
     const answer = calculate(this.state, btnName);
     this.setState(answer);
+    const answer = calculate(counter, btnName);
+    setCount(answer);
   };
+  const { total, next, operation} = counter;
 
   render() {
     const { total, operation, next } = this.state;
@@ -188,4 +195,5 @@ export default class Calculator extends Component {
       </div>
     );
   }
-}
+
+export{Calculator as default}
