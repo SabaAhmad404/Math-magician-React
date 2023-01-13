@@ -7,9 +7,10 @@ body {
 }
 
 .zero {
-  width: 26rem;
+  width: 25.9rem;
   height: 3rem;
   text-align: end;
+  margin-right: 1rem;
   font-size: 1rem;
   font-weight: bold;
   background-color: rgb(182, 172, 172);
