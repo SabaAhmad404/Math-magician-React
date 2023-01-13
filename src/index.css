@@ -1,27 +1,303 @@
 body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(71, 70, 70);
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+.zero {
+  width: 26rem;
+  height: 3rem;
+  text-align: end;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(182, 172, 172);
+  border: 1px solid rgb(202, 198, 198);
+  color: white;
+  transition: background-color 1.5s ease;
+}
+
+.zero:hover {
+  background-color: rgb(59, 57, 57);
+}
+
+.line1 {
+  width: 26rem;
+}
+
+.clearAll {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.clearAll:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.plus {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.plus:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.percentage {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.percentage:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.divide {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(245, 171, 35);
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.divide:hover {
+  background-color: orange;
+}
+
+/* line 3 */
+
+.line2 {
+  width: 26rem;
+}
+
+.seven {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.seven:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.eight {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.eight:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.nine {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.nine:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.ex {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(245, 171, 35);
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.ex:hover {
+  background-color: orange;
+}
+
+/* line 4 */
+
+.line3 {
+  width: 26rem;
+}
+
+.four {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.four:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.five {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.five:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.six {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.six:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.minus {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(245, 171, 35);
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.minus:hover {
+  background-color: orange;
+}
+
+/* line4 */
+
+.line4 {
+  width: 26rem;
+}
+
+.one {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.one:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.two {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.two:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.three {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.three:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.plus-sign {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(245, 171, 35);
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.plus-sign:hover {
+  background-color: orange;
+}
+
+/* line 5 */
+
+.line5 {
+  width: 26rem;
+}
+
+.null {
+  width: 13rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.null:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.point {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 1px solid rgb(202, 198, 198);
+  transition: backgroun-color 1.5s ease;
+}
+
+.point:hover {
+  background-color: rgb(148, 146, 146);
+}
+
+.equal {
+  width: 6.5rem;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: rgb(245, 171, 35);
+  border: 1px solid rgb(202, 198, 198);
+  transition: background-color 1.5s ease;
+}
+
+.equal:hover {
+  background-color: orange;
 }
