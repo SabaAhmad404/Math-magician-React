@@ -1,4 +1,5 @@
 import './Styles/app.css';
+import './Styles/index.css';
 import React from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import './components/logic/calculate';
@@ -12,18 +13,21 @@ function App() {
   return (
     <>
       <div className="nav-bar">
-        <h1>Math Magicians</h1>
-        <div className="links">
-          <Link to="/Home"> Home | </Link>
-          <Link to="/Quotes"> Quotation |</Link>
-          <Link to="/Calculator"> Calculator </Link>
+        <div className="navs">
+          <h1>Math Magicians</h1>
+          <div className="links">
+            <Link to="/Home"> Home </Link>
+            <Link to="/Quotes"> Quotation</Link>
+            <Link to="/Calculator"> Calculator </Link>
+          </div>
         </div>
+
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+          <Route path="/Quotes" element={<Quotes />} />
+          <Route path="/Calculator" element={<Calsection />} />
+        </Routes>
       </div>
-      <Routes>
-        <Route path="/Home" element={<Home />} />
-        <Route path="/Quotes" element={<Quotes />} />
-        <Route path="/Calculator" element={<Calsection />} />
-      </Routes>
     </>
   );
 }
